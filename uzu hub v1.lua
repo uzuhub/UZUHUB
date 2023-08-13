@@ -1745,9 +1745,7 @@ while wait() do
 			wait(6)
 			end
 end)
-Section:NewButton("walkspeed 70", "", function()
-workspace.bruh12345441.Humanoid  ["WalkSpeed"] = 70
-end)
+
 Section:NewButton("Godmode (Resets character) (Breaks killstreak)", "Breaks killstreak", function()
 if game.Players.LocalPlayer.Character:FindFirstChild("entered") == nil then
 firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 0)
